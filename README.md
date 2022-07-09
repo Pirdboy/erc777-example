@@ -1,15 +1,21 @@
-# Basic Sample Hardhat Project
+# ERC777 token example
+developed with hardhat  
+more info about ERC777 https://docs.openzeppelin.com/contracts/2.x/api/token/erc777
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Installation
 
-Try running some of the following tasks:
+```
+npm install
+```
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
+# Test
+
+```
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+
+# deploy
+
+```
+npx hardhat run scripts/deploy.js --network <localhost|rinkeby|...>
 ```
